@@ -24,6 +24,7 @@ while not game_over:
     elif player_choice == "R":
         if computer_choice == "S":
             print("Rock smashes Scissors, You Won\n")
+            print("Game over")
         else:
             print("Oh no!, You lose")
             continue
@@ -32,6 +33,7 @@ while not game_over:
     elif player_choice == "S":
         if computer_choice == "P":
             print("Scissors cut paper, You won\n")
+            print("Game Over")
         else:
             print("oh no, You lose\n")
             continue
@@ -40,6 +42,7 @@ while not game_over:
     elif player_choice == "P":
         if computer_choice == "R":
             print("Paper cover rock, You won")
+            print("Game over")
         else:
             print("You lose")
             continue
